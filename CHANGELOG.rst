@@ -4,6 +4,14 @@ Community Inventory Filtering Library Collection Release Notes
 
 .. contents:: Topics
 
+v1.0.2
+======
+
+Release Summary
+---------------
+
+Maintenance release with updated links.
+
 v1.0.1
 ======
 
