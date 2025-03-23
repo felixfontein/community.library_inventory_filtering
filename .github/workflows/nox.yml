@@ -23,7 +23,7 @@ jobs:
       - name: Check out collection
         uses: actions/checkout@v4
         with:
-          path: ansible_collections/community/dns
+          path: ansible_collections/community/library_inventory_filtering_v1
           persist-credentials: false
       - name: Check out community.internal_test_tools
         uses: actions/checkout@v4
@@ -32,14 +32,7 @@ jobs:
           ref: main
           path: ansible_collections/community/internal_test_tools
           persist-credentials: false
-      - name: Check out community.library_inventory_filtering
-        uses: actions/checkout@v4
-        with:
-          repository: ansible-collections/community.library_inventory_filtering
-          ref: stable-1
-          path: ansible_collections/community/library_inventory_filtering_v1
-          persist-credentials: false
       - name: Run nox
         uses: ansible-community/antsibull-nox@main
         with:
-          working-directory: ansible_collections/community/dns
+          working-directory: ansible_collections/community/library_inventory_filtering_v1
