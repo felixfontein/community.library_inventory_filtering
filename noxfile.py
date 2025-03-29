@@ -6,7 +6,6 @@
 # dependencies = ["nox>=2025.02.09", "antsibull-nox"]
 # ///
 
-import os
 import sys
 
 import nox
@@ -17,10 +16,6 @@ try:
 except ImportError:
     print("You need to install antsibull-nox in the same Python environment as nox.")
     sys.exit(1)
-
-
-# Always install latest pip version
-os.environ["VIRTUALENV_DOWNLOAD"] = "1"
 
 
 antsibull_nox.add_lint_sessions(
