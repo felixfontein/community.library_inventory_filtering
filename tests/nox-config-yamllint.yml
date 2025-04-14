@@ -10,5 +10,6 @@ rules:
     max: 160
 
 ignore:
+  - /changelogs/changelog.yaml
   - /changelogs/fragments/*.yml
   - /changelogs/fragments/*.yaml
