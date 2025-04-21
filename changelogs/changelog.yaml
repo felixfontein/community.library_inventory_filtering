@@ -43,3 +43,9 @@ releases:
       - 24-data-tagging.yml
       - 27-filter-allowed-none.yml
     release_date: '2025-04-14'
+  1.1.1:
+    changes:
+      release_summary: Maintenance release.
+    fragments:
+      - 1.1.1.yml
+    release_date: '2025-04-21'
