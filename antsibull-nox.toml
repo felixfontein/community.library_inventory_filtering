@@ -30,6 +30,7 @@ no_unwanted_files_yaml_extensions = [".yml"]
 no_unwanted_files_skip_paths = [
     "plugins/plugin_utils/py.typed",
 ]
+run_no_trailing_whitespace = true
 
 [sessions.build_import_check]
 run_galaxy_importer = true
