@@ -41,6 +41,11 @@ no_unwanted_files_skip_paths = [
     "plugins/plugin_utils/py.typed",
 ]
 run_no_trailing_whitespace = true
+run_avoid_characters = true
+
+[[sessions.extra_checks.avoid_character_group]]
+name = "tab"
+regex = "\\x09"
 
 [sessions.build_import_check]
 run_galaxy_importer = true
