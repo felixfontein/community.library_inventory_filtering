@@ -49,3 +49,12 @@ releases:
     fragments:
       - 1.1.1.yml
     release_date: '2025-04-21'
+  1.1.2:
+    changes:
+      bugfixes:
+        - Avoid deprecated functionality in ansible-core 2.20 (https://github.com/ansible-collections/community.library_inventory_filtering/pull/38).
+      release_summary: Maintenance release.
+    fragments:
+      - 1.1.2.yml
+      - 38-deprecations.yml
+    release_date: '2025-10-01'

@@ -4,6 +4,19 @@ Community Inventory Filtering Library Collection Release Notes
 
 .. contents:: Topics
 
+v1.1.2
+======
+
+Release Summary
+---------------
+
+Maintenance release.
+
+Bugfixes
+--------
+
+- Avoid deprecated functionality in ansible-core 2.20 (https://github.com/ansible-collections/community.library_inventory_filtering/pull/38).
+
 v1.1.1
 ======
 
