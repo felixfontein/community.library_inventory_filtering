@@ -4,6 +4,19 @@ Community Inventory Filtering Library Collection Release Notes
 
 .. contents:: Topics
 
+v1.1.3
+======
+
+Release Summary
+---------------
+
+Maintenance release.
+
+Bugfixes
+--------
+
+- Stop using ``ansible.module_utils.six`` to avoid user-facing deprecation messages with ansible-core 2.20, while still supporting older ansible-core versions (https://github.com/ansible-collections/community.library_inventory_filtering/pull/39).
+
 v1.1.2
 ======
 
