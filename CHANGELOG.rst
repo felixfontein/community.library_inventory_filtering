@@ -4,6 +4,19 @@ Community Inventory Filtering Library Collection Release Notes
 
 .. contents:: Topics
 
+v1.1.4
+======
+
+Release Summary
+---------------
+
+Maintenance release.
+
+Bugfixes
+--------
+
+- Fix accidental type extensions (https://github.com/ansible-collections/community.library_inventory_filtering/pull/40).
+
 v1.1.3
 ======
 

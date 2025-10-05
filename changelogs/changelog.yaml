@@ -69,3 +69,12 @@ releases:
       - 1.1.3.yml
       - 39-six.yml
     release_date: '2025-10-03'
+  1.1.4:
+    changes:
+      bugfixes:
+        - Fix accidental type extensions (https://github.com/ansible-collections/community.library_inventory_filtering/pull/40).
+      release_summary: Maintenance release.
+    fragments:
+      - 1.1.4.yml
+      - 40-fix.yml
+    release_date: '2025-10-05'
