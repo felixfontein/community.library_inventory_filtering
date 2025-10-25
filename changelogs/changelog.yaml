@@ -78,3 +78,12 @@ releases:
       - 1.1.4.yml
       - 40-fix.yml
     release_date: '2025-10-05'
+  1.1.5:
+    changes:
+      bugfixes:
+        - Improve and stricten typing information (https://github.com/ansible-collections/community.library_inventory_filtering/pull/42).
+      release_summary: Maintenance release.
+    fragments:
+      - 1.1.5.yml
+      - 42-typing.yml
+    release_date: '2025-10-25'
