@@ -26,8 +26,8 @@ if sys.version_info >= (3, 6):
 
     if typing.TYPE_CHECKING:
         from .....plugins.plugin_utils.inventory_filter import (  # pragma: no cover
-            _ExcludeFilter,
-            _IncludeFilter,
+            _ExcludeFilter,  # noqa: F401
+            _IncludeFilter,  # noqa: F401
         )
 
 try:

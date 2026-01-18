@@ -4,6 +4,23 @@
 
 line-length = 160
 
+[lint]
+# https://docs.astral.sh/ruff/rules/
+
+select = ["A", "B", "E", "F", "FA", "FLY", "SIM"]
+ignore = [
+    # Better keep ignored (for now)
+    "E402",  # Module level import not at top of file
+    "B904",  # Use raise ... from
+]
+
+# Allow fix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = []
+
+# Allow unused variables when underscore-prefixed or starting with dummy
+dummy-variable-rgx = "^(_|dummy).*$"
+
 [lint.isort]
 known-third-party = [
     "ansible_collections.community.internal_test_tools",
