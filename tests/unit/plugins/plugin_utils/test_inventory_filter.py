@@ -4,7 +4,6 @@
 
 from __future__ import absolute_import, division, print_function
 
-
 __metaclass__ = type
 
 
@@ -21,7 +20,6 @@ from ansible_collections.community.internal_test_tools.tests.unit.utils.trust im
 )
 
 from .....plugins.plugin_utils.inventory_filter import filter_host, parse_filters
-
 
 if sys.version_info >= (3, 6):
     import typing

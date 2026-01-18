@@ -6,7 +6,6 @@
 
 from __future__ import absolute_import, division, print_function
 
-
 __metaclass__ = type
 
 import sys
@@ -14,7 +13,6 @@ import sys
 from ansible.errors import AnsibleError, AnsibleParserError
 from ansible.module_utils.common.text.converters import to_native
 from ansible.module_utils.parsing.convert_bool import boolean
-
 
 if sys.version_info[0] == 2:
     string_types = (basestring,)  # noqa: F821, pylint: disable=undefined-variable
