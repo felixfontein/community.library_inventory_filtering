@@ -13,13 +13,24 @@ stable_branches = [ "stable-*" ]
 [sessions]
 
 [sessions.lint]
-isort_config = "tests/nox-config-isort.cfg"
-black_config = "tests/nox-config-black.toml"
-flake8_config = "tests/nox-config-flake8.ini"
-pylint_rcfile = "tests/nox-config-pylint.rc"
+run_isort = false
+run_black = true
+black_config = "black.toml"
+run_ruff_autofix = true
+ruff_autofix_config = "ruff.toml"
+ruff_autofix_select = [
+    "I",
+    "RUF022",
+]
+run_flake8 = true
+flake8_config = ".flake8"
+run_pylint = true
+pylint_rcfile = ".pylintrc"
+run_yamllint = true
 yamllint_config = ".yamllint"
 yamllint_config_extra_docs = ".yamllint-docs"
-mypy_config = "tests/nox-config-mypy.ini"
+run_mypy = true
+mypy_config = ".mypy.ini"
 mypy_extra_deps = [
     "types-mock",
 ]
