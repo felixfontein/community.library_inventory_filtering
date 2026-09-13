@@ -1,9 +1,3 @@
-<!--
-Copyright (c) Ansible Project
-GNU General Public License v3.0+ (see LICENSES/GPL-3.0-or-later.txt or https://www.gnu.org/licenses/gpl-3.0.txt)
-SPDX-License-Identifier: GPL-3.0-or-later
--->
-
 # Community Inventory Filtering Library Collection
 [![Documentation](https://img.shields.io/badge/docs-brightgreen.svg)](https://docs.ansible.com/ansible/devel/collections/community/library_inventory_filtering_v1/)
 [![CI](https://github.com/ansible-collections/community.library_inventory_filtering/actions/workflows/nox.yml/badge.svg?branch=stable-1)](https://github.com/ansible-collections/community.library_inventory_filtering/actions)
